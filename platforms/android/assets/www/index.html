@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script src="js/json2.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.min.css">
+    <script src="js/jquery.mobile.min.js"></script>
+    <script src="js/ajaxfunctions.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/hammer.js"></script>
+    <title>News App</title>
+</head>
+
+<body>
+    <div id="target" class="app" data-role="page">
+
+        <div data-role="header" data-theme="b" data-position="fixed" data-tap-toggle="false">
+            <h1>УНСС Новини</h1>
+        </div>
+
+        <div id="deviceready" data-role="content" data-theme="a">
+
+            <img id="smallImage" src="img/logo.png" width="80" height="80" />
+            <div id="menu">
+                <button data-theme="b" id="itcButton">Предстоящо в ИТК</button>
+                <button data-theme="b" id="mainButton">Новини</button>
+                <button data-theme="b" id="scheduleButton">Разписание</button>
+            </div>
+
+            <ul id="newsList" data-role="listview" data-inset="true" data-theme="a">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+            <div id="schedule" style="display:none"> </div>
+
+        </div>
+
+        <div data-role="footer" data-theme="b" data-position="fixed" data-tap-toggle="false">
+            <h2><span id="counter">0</span>/30</h2>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

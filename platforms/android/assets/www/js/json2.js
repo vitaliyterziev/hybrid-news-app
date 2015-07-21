@@ -1,0 +1,1 @@
+C:\xampp\php;C:\Program Files (x86)\Java\jdk1.7.0_71;C:\Program Files (x86)\apache-ant-1.9.4\bin;C:\Python27;C:\Python27\Lib\site-packages\Django-1.8.2-py2.7.egg\django;C:\Users\VitaliyTerziev\AppData\Roaming\npm

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.vitaliy.workshop" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <icon density="mdpi" height="57" platform="android" src="www/img/logo.png" width="57" />
+    <name>NEWS APP UNWE</name>
+    <description>
+        A sample Apache Cordova RSS application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Vitaliy Terziev
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
